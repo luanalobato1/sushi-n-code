@@ -1,9 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Navbar from '../../../components/Navbar/Navbar'
-import Footer from '../../../components/Footer/Footer'
-import '../../../css/general.css'
-import imgLanding from '../../../assets/sushiLandingPage.jpeg'
+import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
+import '../../css/general.css'
+import imgLanding from '../../assets/sushiLandingPage.jpeg'
 import './landing.css'
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
                 Sushi, sashimi, wok, ramen, gyoza, sopa pho, bibimbap, etc... Una variedad de <b>nuevos sabores</b> te esperan. ¿Te los vas a perder?
               </p>
 
-              <NavLink className='custom-button link-custom'>¡Pedir ya!</NavLink>
+              <NavLink className='custom-button link-custom' exact to={'/home'}>¡Pedir ya!</NavLink>
             </article>
 
             <img className='img-custom-size' src={imgLanding} alt='Sushi' />
