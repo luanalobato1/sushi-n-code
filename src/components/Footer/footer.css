@@ -1,0 +1,12 @@
+
+.logo-size {
+  height: 100px;
+  width: auto;
+  margin: 20px;
+}
+
+.custom-color-footer {
+  background-color: var(--green-primary-color);
+  height: 25%;
+  color: var(--white-secondary-color);
+}

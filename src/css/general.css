@@ -1,0 +1,40 @@
+:root {
+  --green-primary-color: #29741D;
+  --white-secondary-color: #F2F2F2;
+}
+
+body {
+  background-color: var(--white-secondary-color);
+}
+
+.text-custom-color {
+  color: var(--white-secondary-color);
+}
+
+.custom-button {
+  font-weight: bold;
+  padding: 12px 24px;
+  background-color: var(--green-primary-color);
+  color: var(--white-secondary-color);
+  border: none;
+  border-radius: 30px;
+}
+
+.custom-button-2 {
+  font-weight: bold;
+  padding: 12px 24px;
+  background-color: var(--white-secondary-color);
+  color: var(--green-primary-color);
+  border: none;
+  border-radius: 30px;
+}
+
+.link-custom {
+  text-decoration: none;
+  font-weight: 500;
+  transition: text-shadow 0.3s;
+}
+
+.link-custom:hover {
+  text-shadow: 0 0 10px var(--white-secondary-color);
+}

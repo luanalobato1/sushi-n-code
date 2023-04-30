@@ -1,0 +1,10 @@
+
+.logoText-size {
+  height: 72px;
+  width: auto;
+}
+
+.nav-custom-color {
+  background-color: var(--green-primary-color);
+}
+
